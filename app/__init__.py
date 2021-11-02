@@ -7,7 +7,7 @@ def create_app():
 
   @app.route("/")
   def index():
-    return "<h1/>HELLO BITCH</h1>"
+    return "<h1/>HELLO</h1>"
 
   with app.app_context():
 
